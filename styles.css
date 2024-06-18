@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #121212;
@@ -14,18 +14,25 @@ header {
 }
 
 nav ul {
+  
   list-style: none;
-  padding: 0;
+  background-color: #0c0c0c;
+  line-height: 50px;
+ 
+  
 }
 
 nav ul li {
+  font-weight: bold;
   display: inline;
   margin: 0 10px;
+  
 }
 
 nav ul li a {
   color: #39FF14;
   text-decoration: none;
+  
 }
 
 .img img {
